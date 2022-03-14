@@ -1,1 +1,1 @@
-text="* DETERMINATION."
+text="* (Standing on a platform in&  the middle of nowhere fills&  you with determination.)";
