@@ -14,7 +14,7 @@ switch (Battle_GetMenuChoiceButton()) {
 	case BATTLE_MENU_CHOICE_BUTTON.ACT:
 		switch (Battle_GetMenuChoiceAction()) {
 			case 0:
-				Dialog_Add("* DUMMY ATK 0 DEF 0&* Looks like it's going to fall&  over.");
+				Dialog_Add("* DUMMY ATK 1 DEF 1&* Looks like it's going to fall&  over.");
 				break;
 			case 1:
 				Dialog_Add("* You talk to the Dummy.{pause}&* It doesn't seem much for&  conversation.");

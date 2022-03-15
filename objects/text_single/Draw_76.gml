@@ -11,4 +11,10 @@ switch(effect){
 		}
 		_effect_shook=!_effect_shook;
 		break;
+		
+	case 1:
+		siner += 1;
+		_offset_x = sin(siner / 10) * 2;
+		_offset_y = cos(siner / 10) * 2;
+		break;
 }

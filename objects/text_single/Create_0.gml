@@ -32,3 +32,5 @@ _offset_x=0;
 _offset_y=0;
 
 _effect_shook=false;
+
+siner = 0;
