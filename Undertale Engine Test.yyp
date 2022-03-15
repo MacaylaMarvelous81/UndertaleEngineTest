@@ -338,6 +338,7 @@
     {"id":{"name":"Player_GetExp","path":"scripts/Player_GetExp/Player_GetExp.yy",},"order":17,},
     {"id":{"name":"Player_SetExp","path":"scripts/Player_SetExp/Player_SetExp.yy",},"order":19,},
     {"id":{"name":"Player_GetAtk","path":"scripts/Player_GetAtk/Player_GetAtk.yy",},"order":21,},
+    {"id":{"name":"spr_bg_area_0","path":"sprites/spr_bg_area_0/spr_bg_area_0.yy",},"order":2,},
     {"id":{"name":"Player_GetDef","path":"scripts/Player_GetDef/Player_GetDef.yy",},"order":23,},
     {"id":{"name":"Player_GetSpd","path":"scripts/Player_GetSpd/Player_GetSpd.yy",},"order":25,},
     {"id":{"name":"Player_GetInv","path":"scripts/Player_GetInv/Player_GetInv.yy",},"order":27,},
