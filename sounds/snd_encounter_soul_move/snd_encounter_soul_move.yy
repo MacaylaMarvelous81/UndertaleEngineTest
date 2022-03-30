@@ -11,7 +11,7 @@
     "path": "audiogroups/audiogroup_default",
   },
   "soundFile": "snd_encounter_soul_move",
-  "duration": 0.0,
+  "duration": 0.333787,
   "parent": {
     "name": "SFX",
     "path": "folders/Sounds/SFX.yy",

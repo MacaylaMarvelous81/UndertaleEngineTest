@@ -22,7 +22,7 @@ switch (Battle_GetMenu()) {
 		inst.bar_hp_original = orig_hp;
 		inst.bar_hp_target = _hp;
 		
-		// Play damage sound and shake
+		// Play damage sound, shake, and change sprite
 		if (dmg > 0) {
 			audio_play_sound(snd_damage, 0, false);
 			var shake = instance_create_depth(0, 0, 0, shaker);
@@ -31,6 +31,8 @@ switch (Battle_GetMenu()) {
 			shake.shake_distance = 15;
 			shake.shake_decrease = 3;
 			shake.shake_speed = 4;
+			sprite_index = spr_battle_enemy_dummy_hit;
+			alarm[0] = 60;
 		}
 		break;
 }

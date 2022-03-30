@@ -2,13 +2,17 @@ var can_move=(moveable&&_moveable_dialog&&_moveable_menu&&_moveable_save&&_movea
 if(can_move){
 	if(Input_IsHeld(INPUT.UP)){
 		move[DIR.UP]=2;
+		encounter_timer++;
 	}else if(Input_IsHeld(INPUT.DOWN)){
 		move[DIR.DOWN]=2;
+		encounter_timer++;
 	}
 	if(Input_IsHeld(INPUT.LEFT)){
 		move[DIR.LEFT]=2;
+		encounter_timer++;
 	}else if(Input_IsHeld(INPUT.RIGHT)){
 		move[DIR.RIGHT]=2;
+		encounter_timer++;
 	}
 	if(Input_IsPressed(INPUT.CONFIRM)){
 		var inst=noone;
@@ -34,6 +38,14 @@ if(can_move){
 		if(Input_IsPressed(INPUT.MENU)){
 			instance_create_depth(0,0,0,ui_menu);
 		}
+	}
+}
+
+if (encounter_timer >= 720) {
+	encounter_timer = 0;
+	if (instance_exists(hint_encounter)) {
+		var encounter = choose(2);
+		Encounter_Start(encounter, true, true);
 	}
 }
 

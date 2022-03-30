@@ -1,4 +1,4 @@
-"item.eat"								"* You ate the {insert ITEM}."
+"item.eat"							"* You ate the {insert ITEM}."
 "item.equip"							"* You equiped the {insert ITEM}."
 "item.heal.part"						"* You recovered {insert HP} HP!"
 "item.heal.all"							"* Your HP was maxed out."
@@ -13,12 +13,17 @@
 
 "item.bandage.name"						"Bandage"
 "item.bandage.info"						"* Bandage - Heals 10 HP&* It has already been used&  several times."
-"item.bandage.use.0"					"* You re-applied the bandage."
-"item.bandage.use.1"					"* Still kind of gooey."
+"item.bandage.use.0"						"* You re-applied the bandage."
+"item.bandage.use.1"						"* Still kind of gooey."
 
-"item.toy_knife.name"					"Toy Knife"
-"item.toy_knife.info"					"* Toy Knife - Weapon AT 3&* Made of plastic.&* A rarity nowadays."
+"item.toy_knife.name"						"Toy Knife"
+"item.toy_knife.info"						"* Toy Knife - Weapon AT 3&* Made of plastic.&* A rarity nowadays."
 
-"item.faded_ribbon.name"				"Faded Ribbon"
-"item.faded_ribbon.name.short"			"Ribbon"
-"item.faded_ribbon.info"				"* Faded Ribbon - Armor DF 3&* If you're cuter,{sleep 20} monsters&  won't hit you as hard."
+"item.faded_ribbon.name"					"Faded Ribbon"
+"item.faded_ribbon.name.short"					"Ribbon"
+"item.faded_ribbon.info"					"* Faded Ribbon - Armor DF 3&* If you're cuter,{sleep 20} monsters&  won't hit you as hard."
+
+"item.watermelon.name"                                          "Watermelon"
+"item.watermelon.name.short"                                    "Melon"
+"item.watermelon.info"                                          "* Watermelon - Heals 12 HP&* Has many seeds embedded into it."
+"item.watermelon.use.0"                                         "* You took a big bite out of the&  melon."

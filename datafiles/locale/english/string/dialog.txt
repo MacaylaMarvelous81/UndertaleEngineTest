@@ -1,0 +1,4 @@
+"dialog.item.full"                                      "* You're carrying too much."
+
+"dialog.char.dummysign.0"                               "* Hahaha, did you think I was a&  sign? I'm actually a DUMMY."
+"dialog.char.dummysign.1"                               "* Let's fight!"

@@ -69,8 +69,8 @@
   ],
   "nineSlice": null,
   "parent": {
-    "name": "Enemy",
-    "path": "folders/Sprites/Battle/Enemy.yy",
+    "name": "Dummy",
+    "path": "folders/Sprites/Battle/Enemy/Dummy.yy",
   },
   "resourceVersion": "1.0",
   "name": "spr_battle_enemy_dummy",
